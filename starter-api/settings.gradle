@@ -1,0 +1,7 @@
+rootProject.name = 'starter-api'
+
+include ':services'
+project(':services').projectDir = new File(settingsDir, '../services')
+
+include ':models'
+project(':models').projectDir = new File(settingsDir, '../models')
